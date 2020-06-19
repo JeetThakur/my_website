@@ -1,4 +1,6 @@
 import React from "react";
+import ImageHolder from "../components/ImageHolder";
+import NavBar from "../components/NavBar";
 
 class Main extends React.Component {
   constructor(props) {
@@ -6,7 +8,12 @@ class Main extends React.Component {
   }
 
   render() {
-    return <h1>Hello</h1>;
+    return (
+      <>
+        <NavBar />
+        <ImageHolder />
+      </>
+    );
   }
 }
 
