@@ -1,8 +1,8 @@
 import React from "react";
 import { Holder } from "./styled";
 
-const ImageHolder = () => {
-  return <Holder></Holder>;
+const ImageHolder = (props) => {
+  return <Holder style={props.style}></Holder>;
 };
 
 export default ImageHolder;
