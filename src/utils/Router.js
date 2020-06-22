@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import Main from "../views/Main";
+import Main from "../views/Main_First_Page/Main";
 
 // Setting up the router
 const Router = (props) => (
