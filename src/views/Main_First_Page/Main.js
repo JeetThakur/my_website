@@ -33,8 +33,8 @@ class Main extends React.Component {
         >
           Output
           <div style={{ border: "2px solid #ffffff" }}></div>
-          <Typing>
-            <Typing.Delay ms={19500} />
+          <Typing speed={0}>
+            <Typing.Delay ms={25500} />
             <div style={{ textAlign: "center", marginTop: 50 }}>
               <h2>Hey, I'm Jeet!</h2>
             </div>
@@ -61,8 +61,8 @@ class Main extends React.Component {
           Console:
           <div style={{ border: "2px solid #ffffff" }}></div>
           <Typing>
-            <Typing.Delay ms={16000} />
-            <Typing.Speed ms={10} />
+            <Typing.Delay ms={20000} />
+            <Typing.Speed ms={0} />
             <div style={{ paddingLeft: 10 }}>&gt; npm start</div>
             <div style={{ paddingLeft: 10 }}>
               &gt; my_website@0.1.0 start

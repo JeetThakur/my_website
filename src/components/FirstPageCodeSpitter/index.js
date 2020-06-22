@@ -37,7 +37,6 @@ const FirstPageCodeSpitter = (props) => {
           &lt; head &gt;
         </Text>
 
-        <Typing.Speed ms={0} />
         <Text
           style={{
             marginLeft: "45px",
@@ -47,7 +46,7 @@ const FirstPageCodeSpitter = (props) => {
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           / &gt;
         </Text>
-        <Typing.Speed ms={0} />
+
         <Text
           style={{
             marginLeft: "30px",
